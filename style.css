@@ -1,0 +1,224 @@
+
+  body{
+    background-color: rgb(32, 32, 32);
+  }
+
+  .ui {
+    background-color: #333;
+    overflow: visible;
+    padding: 0px;
+  }
+  /*ui*/
+  .ui a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    text-shadow: 1px 1px #33147a;
+  }
+  .ui a:hover {background-color: rgb(37, 37, 37); color: rgb(119, 119, 119);}
+  /*ui*/
+
+  /*main btn*/
+  .ui a.main { background-color: #6128e6; color: white;}
+  .ui a.main:hover {background-color: #33147a; color: rgb(168, 168, 168);}
+  /*main btn*/
+
+
+  /*rndm btn*/
+    .ui a.random {
+    float: right;
+    background-color: #6128e6;
+    color: white;
+    text-align: center;
+    text-decoration: none;  
+    padding: 13px;
+  }
+  .ui a.random:hover {background-color: #33147a; color: rgb(168, 168, 168);}
+  /*rndm btn*/
+  
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+  /*center img*/
+  .title {
+    text-align: center;
+  }
+  /*center img*/
+  
+
+  /*titles*/
+.title .twt{
+  width: 15%;
+  margin-left: auto;
+  padding-top: 100px;
+}
+
+
+.title .fb{
+  width: 15%;
+  margin-left: auto;
+  padding-top: 100px;
+}
+
+
+.title .ig{
+  width: 15%;
+  margin-left: 6px;
+  padding-top: 100px;
+}
+
+
+
+.title .p{
+  color: white;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 2px #33147a;
+}
+
+.title .i{
+  margin-top: 100px;
+  padding-bottom: 200px;
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*titles*/
+
+  /*madeby*/
+  .madeby{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(168, 168, 168);
+    margin-top: auto;
+    text-align: right;
+  }
+  /*madeby*/
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+  .ui a.contact {
+    float: left;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+
+  .ui a.about {
+    float: left;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+
+  .ui a.contact:hover {
+    background-color: rgb(37, 37, 37); 
+    color: rgb(119, 119, 119);
+  }
+
+  .ui a.about:hover {
+    background-color: rgb(37, 37, 37); 
+    color: rgb(119, 119, 119);
+  }
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+  
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 14px 16px;
+  font-size: 17px;
+  border: none;
+  text-shadow: 1px 1px #33147a;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(37, 37, 37);}
+
+.dropdown:hover .dropdown-content {display:grid; cursor:pointer;}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(37, 37, 37); 
+  color: rgb(119, 119, 119);
+  cursor:pointer;
+} 
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  margin: auto;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+  border: 2px solid #ddd;
+}
+.column img:hover {
+  border-color: #33147a;
+}
+
+
+/*menu for images when opend*/
+.fullimage .img {
+  display: block;
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 500px;
+  border: 1px solid #ddd;
+  border-radius: auto;
+}
+.fullimage p{
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.downloadbtn_img{
+  width: 25px;
+  height: 25px;
+}
+
+.downloadbtn{
+  display: block;
+  margin: auto;
+}
